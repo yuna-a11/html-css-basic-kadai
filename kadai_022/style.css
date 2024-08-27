@@ -55,7 +55,7 @@ img {
   color: rgb(193,234,251);
  }
  a:hover {
-   color: antiquewhitergb(245,178,168);
+  color: rgb(245,178,168);
  }
 
 footer {
@@ -75,20 +75,7 @@ footer {
     font-size: 25px;
   }
   #parent {
-    display: flex;
+    flex-direction: column;
   }
 }
 
-@media screen and (max-width:767px) {
-  h2 {
-    font-size: 25px;
-  }
-  p {
-    font-size: 16px;
-  }
-  #parent {
-    flex-direction: column;
-    padding: 10px;
-  }
-}
-  
